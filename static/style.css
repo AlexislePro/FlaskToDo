@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+form {
+    margin-left: 5px;
+}
+
+h1 {
+    padding: 15px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(90deg, rgba(244,6,6,1) 0%, rgba(255,90,30,1) 35%, rgba(255,239,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    border-width: 0;
+}
+
+button, input[type=submit] {
+    background: rgb(244,6,6);
+    background: linear-gradient(90deg, rgba(244,6,6,1) 0%, rgba(255,90,30,1) 35%, rgba(255,239,0,1) 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.todo {
+    border-radius: 5px;
+}
+
